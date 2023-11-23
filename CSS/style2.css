@@ -1,0 +1,68 @@
+.agrandarhover {
+    transform: scale(1);
+    transition: transform 0.3s ease;
+}
+
+.agrandarhover:hover {
+    transform: scale(1.1);
+    animation: playGif 1s forwards;
+    animation-play-state: running;
+}
+
+nav:hover img {
+    transform: scale(1.1);
+}
+
+#Primera .contenedorModalContent {
+    overflow: auto;
+    height: 100%; 
+}
+
+#Primera .modal {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background: rgb(255, 255, 255);
+    top: 0;
+    left: 0;
+    color: #fff;
+    font-size: larger;
+    z-index: 9999;
+}
+
+#Primera .espacioBlanco {
+    margin-top: 0; 
+    height: 1000px; 
+    background-color: white; 
+}
+
+#Segunda .contenedorModalContent {
+    overflow: auto;
+    height: 100%; 
+}
+
+#Segunda .modal {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background: rgb(255, 255, 255);
+    top: 0;
+    left: 0;
+    color: #fff;
+    font-size: larger;
+    z-index: 9999;
+}
+
+#Segunda .espacioBlanco {
+    margin-top: 0;
+    height: 1000px;
+    background-color: white;
+}
+
+#jose-luis-image {
+    pointer-events: none;
+}
+
+.galtieriii-imagen {
+    display: none;
+}

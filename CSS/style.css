@@ -1,0 +1,190 @@
+#contendor{
+    z-index: 9998;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+#primerafila {
+    display: flex;
+    justify-content: space-between;
+    top: -300px;
+}
+
+#Segunda {
+    position: relative; 
+}
+
+#Tercera {
+    position: relative; 
+}
+
+#títuloo {
+    display: flex;
+    justify-content: center;
+    top: -100px;;
+}
+
+#cuartaa {
+    display: flex;
+    justify-content: center;
+    bottom: 450px;
+}
+
+#quintaa {
+    display: flex;
+    justify-content: center;
+}
+
+#Quinta{
+    display: flex;
+    left: 700px;
+    bottom: -850px;
+    width: 100%;
+}
+
+#Sexta{
+    display: flex;
+    right: -1200px;
+    bottom: -650px;
+    width: 100%;
+}
+
+#Septima {
+    display: flex;
+    right: 1400px;
+    bottom: -500px;
+}
+
+#igs{
+    font-size: 20px;
+    color: rgb(7, 7, 145);
+    margin-top: -60px;
+}
+
+.contenedor-general {
+    position: relative; 
+}
+
+nav {
+    position: absolute;
+    bottom: -1100px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    list-style: none;
+    margin-left: 20px;
+}
+
+.modal{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background: rgb(255, 255, 255);
+    top: 0;
+    left: 0;
+    color: #fff;
+    font-size: larger;
+    z-index: 9999;
+}
+
+.modal.oculto{
+    display: none;
+}
+
+.cerrar-modal{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 24px;
+    cursor: pointer;
+    color: rgb(22, 22, 104);
+}
+
+.cerrar-modal::before {
+    content: "x";
+}
+
+.cerrar-modal:hover {
+    color: darkblue;
+}
+
+.modal2 {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background: rgb(255, 255, 255);
+    top: 0;
+    left: 0;
+    color: #fff;
+    font-size: larger;
+    z-index: 9999;
+    overflow: auto;
+}
+
+.modal-contenido {
+    max-height: 100vh;
+    overflow-y: auto;
+    padding: 0; 
+}
+
+.modal-contenido::-webkit-scrollbar {
+    width: 12px;
+}
+
+.modal-contenido::-webkit-scrollbar-thumb {
+    background-color: rgb(22, 22, 129);
+    border-radius: 0px;
+} 
+
+.modal-contenido::-webkit-scrollbar-track {
+    background: white;
+}
+
+body::-webkit-scrollbar {
+    width: 12px;
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: rgb(22, 22, 129);
+    border-radius: 0px;
+}
+
+body::-webkit-scrollbar-track {
+    background: white;
+}
+
+body.modal-open {
+    overflow: hidden;
+}
+
+.modal img {
+    max-width: 100%;
+    height: auto;
+}
+
+.nueva-imagen { 
+    margin-left: -190px;
+    pointer-events: none;
+}
+
+.jose-luis.image {
+    pointer-events: none;
+}
+
+.cerrar-glosario {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+}

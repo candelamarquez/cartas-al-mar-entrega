@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>cartas al mar</title>
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="CSS/style2.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+    <audio id="audio" autoplay loop>
+        <source src="AUDIOS/14 - Water, Ocean_ Waves Coming In, Medium.mp3" type="audio/mp3" volume="0.2">
+    </audio>
+
+    <section id="Primera" class="gif-section">
+        <article>
+            <img src="IMAGENES/titulo-nuevo.gif" width="1400" onclick="MostrarModal('modalNuevo', 'VIDEOS/Contexto.mp4', 'IMAGENES/jose luis copia.jpg')" />
+        </article>
+
+        <div class="modal oculto" id="modalNuevo">
+            <div onclick="CerrarModal('modalNuevo')"><img src="IMAGENES/cruz.png" alt=""></div>
+            <div class="contenedorModalContent modal-contenido">
+                <div class="contenedorVideoNuevo"></div>
+                <video controls width="100%">
+                    <source src="VIDEOS/Contexto.mp4" type="video/mp4">
+                </video>
+                <div class="espacioBlanco"></div>
+            </div>
+        </div>
+    </section>
+
+    <div class="contenedor" style="position: relative;">
+        <section id="Segunda" class="gif-section" style="position: absolute;">
+            <article>
+                <img src="GIFS/carta-generica-5BAJA.gif" width="350px" onclick="MostrarModal('modalGustavo', 'VIDEOS/Gustavo.mp4', 'IMAGENES/gustavo.jpg')" />
+            </article>
+            <div class="modal oculto" id="modalGustavo">
+                <div onclick="CerrarModal('modalGustavo')"><img src="IMAGENES/cruz.png" alt=""></div>
+                <div class="contenedorModalContent modal-contenido">
+                    <div class="contenedorVideoGustavo"></div>
+                    <video controls width="100%">
+                        <source src="VIDEOS/Gustavo.mp4" type="video/mp4">
+                    </video>
+                    <img src="IMAGENES/gustavo glosario copia.jpg" alt="" width="1500px" style="margin-left: 200px;">
+                </div>
+            </div>
+        </section>
+
+        <section id="Tercera" class="gif-section" style="position: relative;">
+            <article>
+                <img src="GIFS/21-5-BAJA.gif" width="450px" onclick="MostrarModal('modal2', 'VIDEOS/Marcelo.mp4', 'IMAGENES/marcelo.jpg')" />
+            </article>
+
+            <div class="modal oculto" id="modal2">
+                <div onclick="CerrarModal('modal2')"><img src="IMAGENES/cruz.png" alt=""></div>
+                <div class="contenedorModalContent modal-contenido">
+                    <div class="contenedorVideo2"></div>
+                    <video controls width="100%">
+                        <source src="VIDEOS/Marcelo.mp4" type="video/mp4">
+                    </video>
+                    <img class="jose-luis-image" src="IMAGENES/marcelo glosario copia3.jpg" alt="jose-luis-image" width="1500px" style="margin-left: 200px;">
+                    <img src="GIFS GLOSARIOS/la-vieja-gif.gif" alt="">
+                </div>
+            </div>
+        </section>
+
+        <section id="Cuarta" class="gif-section" style="position: absolute;">
+            <article>
+                <img src="GIFS/carta-generica-2BAJA.gif" width="600px" onclick="MostrarModal('modalWilly', 'VIDEOS/Willy.mp4', 'IMAGENES/willy.jpg')" />
+            </article>
+
+            <div class="modal oculto" id="modalWilly">
+                <div onclick="CerrarModal('modalWilly')"><img src="IMAGENES/cruz.png" alt=""></div>
+                <div class="contenedorModalContent modal-contenido">
+                    <div class="contenedorVideoWilly"></div>
+                    <video controls width="100%">
+                        <source src="VIDEOS/Willy.mp4" type="video/mp4">
+                    </video>
+                    <div class="espacioBlanco"></div>
+                </div>
+            </div>
+        </section>
+
+        <section id="Quinta" class="gif-section" style="position: absolute;">
+            <article>
+                <img src="GIFS/carta-generica-3-arreglada.gif" width="600px" onclick="MostrarModal('modalPino', 'VIDEOS/Pino.mp4', 'IMAGENES/pino.jpg')"/>
+            </article>
+            
+            <div class="modal oculto" id="modalPino">
+                <div onclick="CerrarModal('modalPino')"><img src="IMAGENES/cruz.png" alt=""></div>
+                <div class="contenedorModalContent modal-contenido">
+                    <div class="contenedorVideoPino"></div>
+                    <video controls width="100%">
+                        <source src="VIDEOS/Pino.mp4" type="video/mp4">
+                    </video>
+                    <img src="IMAGENES/pino glosario copia 2.jpg" alt="" width="1500px" style="margin-left: 200px;">
+                    <img src="GIFS GLOSARIOS/gif-belgrano.gif" alt="">
+                </div>
+            </div>
+        </section>
+
+        <section id="Sexta" class="gif-section" style="position: absolute;">
+            <article>
+                <img src="GIFS/carta-generica-4BAJA.gif" width="700" onclick="MostrarModal('modalJose', 'VIDEOS/Jose Luis de Hierro (sin carta leida).mp4', 'IMAGENES/imagenSexta.jpg')">
+            </article>
+        
+            <div class="modal oculto" id="modalJose">
+                <div onclick="CerrarModal('modalJose')"><img src="IMAGENES/cruz.png" alt=""></div>
+                <div class="contenedorModalContent modal-contenido">
+                    <div class="contenedorVideoJose"></div>
+                    <video controls width="100%">
+                        <source src="VIDEOS/Jose Luis de Hierro.mp4" type="video/mp4">
+                    </video>
+                    <img class="jose-luis-image" src="IMAGENES/jose luis copia.jpg" alt="jose-luis-image" width="1500px" style="margin-left: 200px;">
+                    <img src="GIFS GLOSARIOS/el-loco-gif.gif" alt="">
+                </div>
+            </div>
+        </section>
+
+        <section id="Septima" class="gif-section" style="position: absolute;">
+            <article>
+                <img src="GIFS/carta-genérica-7.gif" width="450" onclick="MostrarModal('modalEdgardo', 'VIDEOS/Edgardo.mp4')">
+            </article>  
+            
+            <div class="modal oculto" id="modalEdgardo">
+                <div onclick="CerrarModal('modalEdgardo')"><img src="IMAGENES/cruz.png" alt=""></div>
+                <div class="contenedorModalContent modal-contenido">
+                    <div class="contenedorVideoJose"></div>
+                    <video controls width="100%">
+                        <source src="VIDEOS/Edgardo.mp4" type="video/mp4">
+                    </video>
+                    <img src="IMAGENES/edgardo glosario copia.jpg" alt="" width="1500px" style="margin-left: 200px;">
+                </div>
+            </div>
+        </section>
+
+        <nav>
+            <ul id="igs">
+                <li><a href="https://www.instagram.com/bautilancon/" target="_blank"><img src="IMAGENES/bauti.png" width="300px" alt=""></a></li>
+                <li><a href="https://www.instagram.com/cande.marquez/" target="_blank"><img src="IMAGENES/cande.png" width="300px" alt=""></a></li>
+                <li><a href="https://www.instagram.com/gasparmerkin/" target="_blank"><img src="IMAGENES/gaspo.png" width="300px" alt=""></a></li>
+            </ul>
+        </nav>
+    
+    </div>
+
+    <script>
+        function MostrarModal(modalId, videoSrc, imagenSrc) {
+            var audio = document.getElementById("audio");
+            audio.pause();
+
+            document.body.classList.add("modal-open");
+
+            var modal = document.getElementById(modalId);
+            modal.classList.remove("oculto");
+
+            var contenedorVideo = modal.querySelector(".contenedorModalContent" + modalId);
+            contenedorVideo.innerHTML = '';
+
+            var videoElement = document.createElement('video');
+            videoElement.src = videoSrc;
+            videoElement.setAttribute('controls', 'true');
+            videoElement.style.width = '100%';
+            videoElement.style.height = 'auto';
+
+            contenedorVideo.appendChild(videoElement);
+
+            var imagenElement = modal.querySelector('.modal-image');
+            imagenElement.src = imagenSrc;
+        }
+
+        function CerrarModal(modalId) {
+            var audio = document.getElementById("audio");
+
+            audio.play();
+
+            document.body.classList.remove("modal-open");
+
+            var modal = document.getElementById(modalId);
+            modal.classList.add("oculto");
+            var videoElement = modal.querySelector('video');
+            videoElement.pause();
+            videoElement.currentTime = 0;
+        }
+    </script>
+</body>
+</html>

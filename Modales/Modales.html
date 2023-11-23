@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<script>
+    var modal = document.querySelector(".modal");
+    var modalContenedorVideo = document.querySelector(".contenedorVideo");
+
+    function MostrarModal() {
+        var modal = document.getElementById('modal')
+        modal.classList.remove("oculto");
+
+        var contenedorVideo = document.querySelector(".contenedorVideo");
+        modalContenedorVideo.innerHTML = '';
+
+        var videoId = 'igiLc-5GsHU';
+        var videoElement = document.createElement('iframe');
+        videoElement.src = 'https://www.youtube.com/embed/' + videoId;
+        videoElement.setAttribute('frameborder', '0');
+        videoElement.setAttribute('allowfullscreen', 'true');
+        videoElement.style.width= '100%'
+        videoElement.style.height= '900px'
+
+        modalContenedorVideo.appendChild(videoElement);
+    }
+
+    function CerrarModal() {
+        modal.classList.add("oculto");
+        var iframe= modalContenedorVideo.querySelector('iframe');
+        iframe.src='';
+    }
+
+    function Stopvideo() {
+
+     }
+
+    function MostrarModalNuevo() {
+        var modalNuevo = document.getElementById('modalNuevo');
+        modalNuevo.classList.remove("oculto");
+        
+        var contenedorVideoNuevo = document.querySelector(".contenedorVideoNuevo");
+        contenedorVideoNuevo.innerHTML = '';
+
+        var videoIdNuevo = 'Stk816iVWPE'; 
+        var videoElementNuevo = document.createElement('iframe');
+        videoElementNuevo.src = 'https://www.youtube.com/embed/' + videoIdNuevo;
+        videoElementNuevo.setAttribute('frameborder', '0');
+        videoElementNuevo.setAttribute('allowfullscreen', 'true');
+        videoElementNuevo.style.width = '100%';
+        videoElementNuevo.style.height = '900px';
+
+        contenedorVideoNuevo.appendChild(videoElementNuevo);
+    }
+
+    function CerrarModalNuevo() {
+        var modalNuevo = document.getElementById('modalNuevo');
+        modalNuevo.classList.add("oculto");
+        var iframeNuevo = document.querySelector('.contenedorVideoNuevo iframe');
+        iframeNuevo.src = ''
+    }
+</script> 
+
+</html>
